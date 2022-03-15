@@ -1,0 +1,61 @@
+Unknown error while attempting to login. Please check back later while we look into the issue.<br>Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Tim...</span>
+    <DIV style="display:none;">Revelation.RevException
+Revelation.RevException
+Source: Exception, Msg: Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Time: 738215.13:58:25.9273306 SQL: SELECT R0.[USER_ID],R0.[DISABLED],R0.[PERSON_GU],R0.[EXEMPT_FROM_LDAP],R0.[PASSWORD],R1.[STUDENT_GU],R2.[LAST_NAME],R2.[FIRST_NAME],R2.[MIDDLE_NAME] FROM [REV].[REV_USER_NON_SYS] R0 INNER JOIN [REV].[REV_PERSON] R2 ON (R0.PERSON_GU=R2.PERSON_GU) INNER JOIN [REV].[EPC_STU] R1 ON (R2.PERSON_GU=R1.STUDENT_GU)  WHERE (  R0.[USER_ID] = 'nshah5376')     
+Stack:    at Revelation.RevError.HandleError(Exception inner)
+   at PXP.PXPInfo.PXP2_Login_Student.AttemptLogin(String name, String password, Boolean directLogin)
+   at PXP.PXPInfo.PXP2_Login_Student.PostBackEvent()
+--------------------------
+Revelation.RevException
+Revelation.RevException
+Source: Exception, Msg: Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Time: 738215.13:58:25.9273306 SQL: SELECT R0.[USER_ID],R0.[DISABLED],R0.[PERSON_GU],R0.[EXEMPT_FROM_LDAP],R0.[PASSWORD],R1.[STUDENT_GU],R2.[LAST_NAME],R2.[FIRST_NAME],R2.[MIDDLE_NAME] FROM [REV].[REV_USER_NON_SYS] R0 INNER JOIN [REV].[REV_PERSON] R2 ON (R0.PERSON_GU=R2.PERSON_GU) INNER JOIN [REV].[EPC_STU] R1 ON (R2.PERSON_GU=R1.STUDENT_GU)  WHERE (  R0.[USER_ID] = 'nshah5376')     
+Stack:    at Revelation.RevError.HandleError(Exception inner)
+   at PXP.PXPInfo.PXPWebCommon.AttemptLogin(WebFormBasePXP page, String name, String password, UserType userType, Boolean directLogin)
+   at PXP.PXPInfo.PXP2_Login_Student.AttemptLogin(String name, String password, Boolean directLogin)
+--------------------------
+Revelation.RevException
+Revelation.RevException
+Source: Exception, Msg: Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Time: 738215.13:58:25.9273306 SQL: SELECT R0.[USER_ID],R0.[DISABLED],R0.[PERSON_GU],R0.[EXEMPT_FROM_LDAP],R0.[PASSWORD],R1.[STUDENT_GU],R2.[LAST_NAME],R2.[FIRST_NAME],R2.[MIDDLE_NAME] FROM [REV].[REV_USER_NON_SYS] R0 INNER JOIN [REV].[REV_PERSON] R2 ON (R0.PERSON_GU=R2.PERSON_GU) INNER JOIN [REV].[EPC_STU] R1 ON (R2.PERSON_GU=R1.STUDENT_GU)  WHERE (  R0.[USER_ID] = 'nshah5376')     
+Stack:    at Revelation.RevError.HandleError(Exception inner)
+   at EduPoint.Login.LoginUser(App app, AppConstants appConstants, Cache cache, String loginName, String password, HttpRequest request, UserType userType, Boolean noThrows, HttpSessionState ss, String& message, Boolean& passwordExpired, Boolean& accountDisabled, Boolean& twoFactorAuth)
+   at EduPoint.Login.LoginUser(App app, AppConstants appConstants, Cache cache, String loginName, String password, HttpRequest request, UserType userType, Boolean noThrows, HttpSessionState ss, String& message, Boolean& passwordExpired, Boolean& accountDisabled)
+   at PXP.PXPInfo.PXPWebCommon.AttemptLogin(WebFormBasePXP page, String name, String password, UserType userType, Boolean directLogin)
+--------------------------
+Revelation.RevException
+Revelation.RevException
+Source: Exception, Msg: Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Time: 738215.13:58:25.9273306 SQL: SELECT R0.[USER_ID],R0.[DISABLED],R0.[PERSON_GU],R0.[EXEMPT_FROM_LDAP],R0.[PASSWORD],R1.[STUDENT_GU],R2.[LAST_NAME],R2.[FIRST_NAME],R2.[MIDDLE_NAME] FROM [REV].[REV_USER_NON_SYS] R0 INNER JOIN [REV].[REV_PERSON] R2 ON (R0.PERSON_GU=R2.PERSON_GU) INNER JOIN [REV].[EPC_STU] R1 ON (R2.PERSON_GU=R1.STUDENT_GU)  WHERE (  R0.[USER_ID] = 'nshah5376')     
+Stack:    at Revelation.RevError.HandleError(Exception inner)
+   at Revelation.Data.Query.Execute()
+   at EduPoint.Login.LoginUser(App app, AppConstants appConstants, Cache cache, String loginName, String password, HttpRequest request, UserType userType, Boolean noThrows, HttpSessionState ss, String& message, Boolean& passwordExpired, Boolean& accountDisabled, Boolean& twoFactorAuth)
+--------------------------
+Revelation.RevException
+Revelation.RevException
+Source: Exception, Msg: Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Time: 738215.13:58:25.9273306 SQL: SELECT R0.[USER_ID],R0.[DISABLED],R0.[PERSON_GU],R0.[EXEMPT_FROM_LDAP],R0.[PASSWORD],R1.[STUDENT_GU],R2.[LAST_NAME],R2.[FIRST_NAME],R2.[MIDDLE_NAME] FROM [REV].[REV_USER_NON_SYS] R0 INNER JOIN [REV].[REV_PERSON] R2 ON (R0.PERSON_GU=R2.PERSON_GU) INNER JOIN [REV].[EPC_STU] R1 ON (R2.PERSON_GU=R1.STUDENT_GU)  WHERE (  R0.[USER_ID] = 'nshah5376')     
+Stack:    at Revelation.RevError.HandleError(Exception inner)
+   at Revelation.Data.DataReaderBase.Execute()
+   at Revelation.Data.Query.Execute()
+--------------------------
+System.Exception
+System.Exception
+Source: , Msg: Error: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	Time: 738215.13:58:25.9273306 SQL: SELECT R0.[USER_ID],R0.[DISABLED],R0.[PERSON_GU],R0.[EXEMPT_FROM_LDAP],R0.[PASSWORD],R1.[STUDENT_GU],R2.[LAST_NAME],R2.[FIRST_NAME],R2.[MIDDLE_NAME] FROM [REV].[REV_USER_NON_SYS] R0 INNER JOIN [REV].[REV_PERSON] R2 ON (R0.PERSON_GU=R2.PERSON_GU) INNER JOIN [REV].[EPC_STU] R1 ON (R2.PERSON_GU=R1.STUDENT_GU)  WHERE (  R0.[USER_ID] = 'nshah5376')     
+Stack: 
+--------------------------
+Revelation.RevException
+Revelation.RevException
+Source: Exception, Msg: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+Stack:    at Revelation.RevError.HandleError(Exception inner)
+   at Revelation.Data.TransactionController.PrepareSqlCommand(String connectionString, IDbCommand sqlCommand, Boolean forSelectOnly)
+   at Revelation.Data.DataReaderBase.Execute()
+--------------------------
+System.InvalidOperationException
+System.InvalidOperationException
+Source: System.Data, Msg: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+Stack:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Revelation.Data.TransactionController.PrepareSqlCommand(String connectionString, IDbCommand sqlCommand, Boolean forSelectOnly)
+--------------------------
+^^^ This is where the exception occurred ^^^ (the output is from top to bottom)
+
